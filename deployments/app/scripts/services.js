@@ -10,7 +10,7 @@
 'use strict';
 
 angular.module('compactProfiler')
-    .constant("baseURL", "http://localhost:8080/")
+    .constant("baseURL", "http://vitanuova-compactprofiler.rhcloud.com")
     .service('profileService', ['$http', '$location', 'baseURL', function ($http, $location, baseURL) {
 
         var minimalProfile = "";
